@@ -56,6 +56,19 @@ rather than invented:
   back to the editor default), resolved here to the theme's own
   `background`/`foreground`.
 
+## Status tones
+
+`tone-pass` and `tone-wait` are what lich 0.53.0 reads for "passed" and "waiting
+on you". The status line sets them at 12px, where WCAG asks 4.5:1 with no
+large-text exemption, so where the palette value did not clear that against the
+card it sits on, its lightness was moved and its hue and saturation kept: the
+same move lich makes for its own two.
+
+| Variant | `tone-pass` | `tone-wait` |
+|---|---|---|
+| Lotus Dark | `#a9dc76` (ANSI green) | `#ffd866` (ANSI yellow) |
+| Lotus Light | `#526c38` (ANSI green, darkened) | `#6f6517` (ANSI yellow, darkened) |
+
 ## Thanks to
 
 - [omartelo](https://github.com/omartelo) — port author
