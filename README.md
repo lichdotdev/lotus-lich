@@ -13,7 +13,7 @@
 ## Usage
 
 1. Open lich → **Settings → Appearance → Import**.
-2. Paste the repository URL: `https://github.com/omartelo/lotus-lich`
+2. Paste the repository URL: `https://github.com/lichdotdev/lotus-lich`
 3. Click **Install**.
 4. Pick a variant in the theme picker. The terminal picker defaults to
    **Match app theme**, so one pick dresses both — or choose a different variant
@@ -26,7 +26,7 @@ To take a later release, hit **Update** on the theme's row.
 An absolute path is an accepted remote, so a clone installs the same way:
 
 ```bash
-git clone https://github.com/omartelo/lotus-lich.git
+git clone https://github.com/lichdotdev/lotus-lich.git
 ```
 
 Then paste the absolute path of the clone into **Settings → Appearance → Import**.
