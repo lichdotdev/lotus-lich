@@ -108,9 +108,16 @@
       "underline": true
     },
     "strong": {
+      "color": "#b06c46",
       "bold": true
     },
     "emphasis": {
+      "color": "#b06c46",
+      "italic": true
+    },
+    "heading": "#749d4f",
+    "monospace": {
+      "color": "#867bbd",
       "italic": true
     }
   }
