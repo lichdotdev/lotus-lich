@@ -2,6 +2,7 @@
   "id": "lotus-light",
   "name": "Lotus Light",
   "scheme": "light",
+  "pair": "lotus-dark",
   "app": {
     "background": "#fafafa",
     "foreground": "#563d58",
