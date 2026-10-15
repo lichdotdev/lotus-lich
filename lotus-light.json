@@ -60,5 +60,57 @@
     "brightMagenta": "#a093e3",
     "brightCyan": "#6dceda",
     "brightWhite": "#c7c7c5"
+  },
+  "syntax": {
+    "keyword": {
+      "color": "#ff6b99",
+      "italic": true
+    },
+    "string": "#a49c56",
+    "escape": "#78dce8",
+    "number": "#5f9247",
+    "constant(variableName)": "#c28d6b",
+    "comment": {
+      "color": "#727072",
+      "italic": true
+    },
+    "variableName": "#363636",
+    "propertyName": "#363636",
+    "labelName": "#363636",
+    "function(variableName)": "#2dc388",
+    "function(propertyName)": "#2dc388",
+    "definition(function(variableName))": "#749d4f",
+    "definition(function(propertyName))": "#749d4f",
+    "standard(variableName)": {
+      "color": "#2dc388",
+      "italic": true
+    },
+    "typeName": "#389d91",
+    "operator": "#397e83",
+    "punctuation": "#939293",
+    "tagName": "#ff6188",
+    "attributeName": {
+      "color": "#6ac1cc",
+      "italic": true
+    },
+    "annotation": "#63b6c0",
+    "invalid": {
+      "color": "#f65f87",
+      "underline": true
+    },
+    "link": {
+      "color": "#539ca6",
+      "underline": true
+    },
+    "url": {
+      "color": "#539ca6",
+      "underline": true
+    },
+    "strong": {
+      "bold": true
+    },
+    "emphasis": {
+      "italic": true
+    }
   }
 }

@@ -56,6 +56,14 @@ rather than invented:
   back to the editor default), resolved here to the theme's own
   `background`/`foreground`.
 
+## Syntax highlighting
+
+Each variant carries a `syntax` section that colors code in the review, diff and
+file views of `lich native`. The colors are the editor scheme's `DEFAULT_*` text
+attributes in `colors/*.xml`, mapped one attribute to one highlighting tag.
+Where the Light scheme repeats the Dark value unchanged (Markdown headings,
+bold, italic, code spans), only the font style is carried.
+
 ## Status tones
 
 `tone-pass` and `tone-wait` are what lich 0.53.0 reads for "passed" and "waiting
