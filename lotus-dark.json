@@ -123,6 +123,10 @@
     "monospace": {
       "color": "#ab9df2",
       "italic": true
+    },
+    "definition(local(variableName))": {
+      "color": "#ffcfa8",
+      "italic": true
     }
   }
 }
